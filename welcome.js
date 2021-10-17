@@ -21,14 +21,7 @@ import { GoogleLogin } from 'react-google-login';
     }
 
     return (<div style={{display:'flex',justifyContent:'center',alignContent:'center'}}>
-        <GoogleLogin
-    clientId="148730292611-q449eq3pm3tokgp1fgntkn0jf6ebuvpt.apps.googleusercontent.com"
-    buttonText="Login"
-    onSuccess={onSuccess}
-    onFailure={onFailure}
-    cookiePolicy={'single_host_origin'}
-    // isSignedIn={true}
-  />
+       
 
     </div>
         // <button type="button" className={classes.button} onClick={handleClick}>
